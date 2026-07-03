@@ -1,5 +1,13 @@
 import sys
 
+# This code defines membership functions for fuzzy logic and calculates
+# the membership degrees for "cool," "warm," and "hot" 
+# based on an input value x. The membership functions include triangular,
+#  left shoulder, and right shoulder types. The main function takes 
+# an input value from the command line, computes the membership degrees, 
+# and prints them out.
+# Triangular, Trapezoidal, Gaussian และ Sigmoidal
+
 def main():
     cool_rule = 100
     warm_rule = 500
