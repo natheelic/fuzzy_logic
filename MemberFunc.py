@@ -38,7 +38,7 @@ def main():
             x = float(sys.argv[1])
         except ValueError:
             print("Usage: python3 MemberFunc.py <x>")
-            print("Example: python3 MemberFunc.py 28")
+            print("Example: python3 MemberFunc.py 20")
             return
     else:
         x = 30
